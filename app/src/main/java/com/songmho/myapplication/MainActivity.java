@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
+
+
+
        int ran=(int) (Math.random()%8);
         bit1=(Button)findViewById(R.id.bit1);
         bit2=(Button)findViewById(R.id.bit2);
