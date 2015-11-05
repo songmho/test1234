@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         Timer timer1=new Timer();
         TimerTask timerTask=new MyTimerTask();
 
-        timer.schedule(timerTask,3000,1000);
+            timer.schedule(timerTask,3000,1000);
 
         bit1.setOnClickListener(new View.OnClickListener() {
             @Override
