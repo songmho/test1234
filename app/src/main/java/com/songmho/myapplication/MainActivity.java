@@ -292,10 +292,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-
-
-
-
     private class MyTimerTask extends TimerTask {
         @Override
         public void run() {
